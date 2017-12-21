@@ -1,0 +1,141 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify I am able to login to facebook",
+        "description": "",
+        "id": "verify-facebook-login;verify-i-am-able-to-login-to-facebook",
+        "after": [
+          {
+            "result": {
+              "duration": 21397179,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10291532724,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch facebook login url",
+            "match": {
+              "location": "LoginSteps.i_launch_facebook_login_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 180276936,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on facebook login page",
+            "match": {
+              "location": "LoginSteps.i_am_on_facebook_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 611523450,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should be able to enter username ans password",
+            "match": {
+              "location": "LoginSteps.i_should_be_able_to_enter_username_ans_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4841680262,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 9,
+                "value": "#When I click on \"LogIn\""
+              }
+            ],
+            "line": 10,
+            "name": "I should be able to see Homepage",
+            "match": {
+              "location": "LoginSteps.i_should_be_able_to_see_Homepage()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2226733469,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on \"Navigation toolbar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Navigation toolbar",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginSteps.i_click_on(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3694831275,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on \"Logout\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Logout",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginSteps.i_click_on(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49795722,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on facebook login page",
+            "match": {
+              "location": "LoginSteps.i_am_on_facebook_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify Facebook Login",
+    "description": "",
+    "id": "verify-facebook-login",
+    "keyword": "Feature",
+    "uri": "LoginTest.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@test"
+      }
+    ]
+  }
+]
